@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "scrobble_somafm/version"
 
 Gem::Specification.new do |s|
-  s.name        = "scrobble_somafm"
-  s.version     = ScrobbleSomafm::VERSION
-  s.authors     = ["Mark Ryall"]
-  s.email       = ["mark@ryall.name"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.name        = 'scrobble_somafm'
+  s.version     = '0.0.1'
+  s.authors     = ['Mark Ryall']
+  s.email       = ['mark@ryall.name']
+  s.homepage    = 'http://github.com/markryall/scrobble_somafm'
+  s.summary     = 'command line somafm radio player and scrobbler'
+  s.description = <<-EOF
+  Plays any somafm radio station by wrapping mplayer, parses track information and sends it to growl and last.fm
+  EOF
 
   s.rubyforge_project = "scrobble_somafm"
 
